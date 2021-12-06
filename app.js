@@ -7,6 +7,8 @@ var AuthRouter = require('./routes/AuthRouter');
 
 var app = express();
 
+console.log("teste");
+
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
